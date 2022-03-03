@@ -6,7 +6,7 @@
 #include <iostream>
 
 namespace detail {
-    const std::string PATH_TO_PROJECT = "/home/rodion/CLionProjects/coursework";
+    const std::string PATH_TO_PROJECT = "document_search/source";
     const std::string PATH_TO_SCRIPT = PATH_TO_PROJECT + "/script.py";
 
     int pdf_to_txt(const std::string &pdf_path, const std::string &out_path = (PATH_TO_PROJECT + "/temp.txt")) {
